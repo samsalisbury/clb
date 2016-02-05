@@ -1,0 +1,22 @@
+baseurl: http://blrgl.com
+languageCode: en-gb
+title: Code, Lies, and Blargles
+
+theme: heather-hugo
+
+permalinks:
+  post: /:year/:month/:title/
+
+taxonomies:
+  tag:      tags
+  category: categories
+  series:   series
+
+params:
+  description: Blrgl blrgl.
+  author:
+    name:  Sam
+    email: sam@blrgl.com
+
+pygmentsuseclasses: true
+#pygmentsstyle: github
